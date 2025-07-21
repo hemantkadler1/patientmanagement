@@ -1,0 +1,14 @@
+{
+  "patients": [
+    {
+      "id": "ab2d",
+      "name": "hemant",
+      "age": "43",
+      "gender": "Male",
+      "contact": "0987654321",
+      "doctor": "Dr. Smith",
+      "history": "jhgfdsdghjjhgfd",
+      "dob": "2025-07-01"
+    }
+  ]
+}
