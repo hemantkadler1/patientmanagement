@@ -1,0 +1,95 @@
+.dashboard {
+  padding: 40px;
+  background: #f5f7fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  font-size: 2.2rem;
+  color: #1f2937;
+}
+
+.welcome-msg {
+  font-size: 1.2rem;
+  color: #4b5563;
+  margin-top: 10px;
+}
+
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.search-section input {
+  width: 60%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+}
+
+.search-section button {
+  padding: 12px 20px;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.search-section button:hover {
+  background-color: #1e40af;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.action-buttons button {
+  padding: 14px 24px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  transition: background 0.3s ease;
+}
+
+.primary {
+  background-color: #10b981;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #059669;
+}
+
+.secondary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.secondary:hover {
+  background-color: #2563eb;
+}
+
+.danger {
+  background-color: #ef4444;
+  color: white;
+}
+
+.danger:hover {
+  background-color: #dc2626;
+}
